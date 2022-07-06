@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import Weather from "./Weather";
 
-export default function App() {
+export default function App(props) {
   return (
     <div className="App">
       <Weather />

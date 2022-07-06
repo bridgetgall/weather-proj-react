@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+
 export default function Weather() {
   return (
     <div className="Weather">
@@ -24,15 +24,12 @@ export default function Weather() {
             Last Updated: <span id="date"></span>
           </p>
           <div className="clearfix weather-temperature">
-            <h2 id="temperature"></h2>
+            <h2 id="temperature">19</h2>
             <span className="units">
-              <a href="#" id="fahrenheit" className="active">
+              <span id="fahrenheit" className="active">
                 °F
-              </a>
-              |{" "}
-              <a href="#" id="celcius">
-                °C{" "}
-              </a>
+              </span>
+              | <span id="celcius">°C </span>
             </span>
           </div>
         </div>
